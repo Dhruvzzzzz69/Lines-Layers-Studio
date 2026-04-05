@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://127.0.0.1:5500/Lines&Layers.html -->
+<html lang="en" crxlauncher=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lines&amp;Layers Studio | ROHAN BHARTI</title>
+  <meta name="description" content="Lines&amp;Layers Studio presents the fine art portfolio of ROHAN BHARTI, including original paintings, curated collections, pricing filters, and bespoke live wedding painting packages.">
+  <link rel="stylesheet" href="./Lines&amp;Layers Studio_files/styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="http://127.0.0.1:5500/Lines&amp;Layers.html#top">
+        <span class="brand-mark">LL</span>
+        <span>
+          <strong>Lines&amp;Layers Studio</strong>
+          <small>By ROHAN BHARTI</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav">
+        <a href="http://127.0.0.1:5500/Lines&amp;Layers.html#portfolio">Portfolio</a>
+        <a href="http://127.0.0.1:5500/Lines&amp;Layers.html#collections">Collections</a>
+        <a href="http://127.0.0.1:5500/live-wedding-painting.html">Live Wedding Painting</a>
+        <a href="http://127.0.0.1:5500/Lines&amp;Layers.html#process">Process</a>
+        <a href="http://127.0.0.1:5500/Lines&amp;Layers.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section reveal is-visible">
+        <div class="hero-copy">
+          <p class="eyebrow">Lines&amp;Layers Studio by ROHAN BHARTI</p>
+          <h1>Original paintings, commissioned works, and immersive live wedding art.</h1>
+          <p class="hero-text">
+            This first build presents ROHAN BHARTI professionally with a premium portfolio layout,
+            collection-based browsing, clear artwork pricing, and a dedicated wedding painting panel
+            ready for your final content.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="http://127.0.0.1:5500/Lines&amp;Layers.html#portfolio">Explore Paintings</a>
+            <a class="button ghost" href="http://127.0.0.1:5500/live-wedding-painting.html">View Live Painting Page</a>
+          </div>
+
+          <div class="stat-row">
+            <article>
+              <strong id="artwork-total">12</strong>
+              <span>Portfolio-ready works</span>
+            </article>
+            <article>
+              <strong>3</strong>
+              <span>Wedding package tiers</span>
+            </article>
+            <article>
+              <strong>1:1</strong>
+              <span>Commission consultation flow</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-frame hero-frame-main">
+            <div class="frame-label">Featured Collection</div>
+            <h2>Echoes of Light</h2>
+            <p>Large-format originals built around warmth, movement, and storytelling.</p>
+          </div>
+          <div class="hero-frame hero-frame-accent">
+            <span>Live on-site painting</span>
+            <strong>Wedding heirloom experiences</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="value-grid section reveal" id="collections">
+        <article class="value-card">
+          <h3>Portfolio-First Presentation</h3>
+          <p>Each artwork appears in a refined card with size, medium, status, and pricing designed for collector confidence.</p>
+        </article>
+        <article class="value-card">
+          <h3>Smart Browsing Filters</h3>
+          <p>Visitors can narrow the collection by painting range, medium, collection theme, availability, and budget cap.</p>
+        </article>
+        <article class="value-card">
+          <h3>Dedicated Wedding Service</h3>
+          <p>A dedicated service page presents live wedding painting packages, pricing varieties, process, and booking details more professionally.</p>
+        </article>
+      </section>
+
+      <section class="portfolio section reveal" id="portfolio">
+        <div class="section-heading">
+          <p class="eyebrow">Artwork portfolio</p>
+          <h2>Browse ROHAN BHARTI's paintings with clear filters and pricing.</h2>
+          <p>
+            Use the controls to explore collection themes, painting ranges, medium, availability,
+            and maximum budget. Each card opens a richer detail view.
+          </p>
+        </div>
+
+        <div class="portfolio-layout">
+          <aside class="filter-panel">
+            <div class="filter-panel-head">
+              <h3>Refine Collection</h3>
+              <button class="text-button" id="resetFilters" type="button">Reset</button>
+            </div>
+
+            <label class="field">
+              <span>Search artwork</span>
+              <input type="search" id="searchInput" placeholder="Title, collection, or mood">
+            </label>
+
+            <label class="field">
+              <span>Collection</span>
+              <select id="collectionFilter">
+                <option value="all">All collections</option>
+              <option value="Echoes of Light">Echoes of Light</option><option value="House of Memory">House of Memory</option><option value="City Pulse">City Pulse</option><option value="Afterglow Studies">Afterglow Studies</option><option value="Earth &amp; Water">Earth &amp; Water</option><option value="Wedding Studies">Wedding Studies</option></select>
+            </label>
+
+            <label class="field">
+              <span>Medium</span>
+              <select id="mediumFilter">
+                <option value="all">All mediums</option>
+              <option value="Oil on canvas">Oil on canvas</option><option value="Acrylic on canvas">Acrylic on canvas</option><option value="Mixed media">Mixed media</option><option value="Watercolor and ink">Watercolor and ink</option><option value="Oil on linen">Oil on linen</option><option value="Acrylic on board">Acrylic on board</option><option value="Oil on wood">Oil on wood</option><option value="Watercolor and gouache">Watercolor and gouache</option><option value="Oil and charcoal">Oil and charcoal</option></select>
+            </label>
+
+            <div class="field">
+              <span>Painting range</span>
+              <div class="chip-group" id="sizeFilter">
+                <button class="chip active" type="button" data-size="all">All</button>
+                <button class="chip" type="button" data-size="Small">Small</button>
+                <button class="chip" type="button" data-size="Medium">Medium</button>
+                <button class="chip" type="button" data-size="Large">Large</button>
+              </div>
+            </div>
+
+            <label class="field">
+              <span>Maximum budget</span>
+              <div class="range-wrap">
+                <input type="range" id="priceFilter" min="25000" max="250000" step="5000" value="250000">
+                <strong id="priceFilterValue">Up to ₹2,50,000</strong>
+              </div>
+            </label>
+
+            <label class="field">
+              <span>Status</span>
+              <select id="statusFilter">
+                <option value="all">Available &amp; sold</option>
+                <option value="Available">Available</option>
+                <option value="Commission">Commission</option>
+                <option value="Reserved">Reserved</option>
+                <option value="Sold">Sold</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Sort by</span>
+              <select id="sortFilter">
+                <option value="featured">Featured first</option>
+                <option value="price-asc">Price: low to high</option>
+                <option value="price-desc">Price: high to low</option>
+                <option value="year-desc">Newest first</option>
+              </select>
+            </label>
+          </aside>
+
+          <div class="gallery-panel">
+            <div class="gallery-toolbar">
+              <div>
+                <p class="toolbar-label">Current view</p>
+                <h3 id="resultsSummary">12 works shown</h3>
+              </div>
+              <div class="legend">
+                <span><i class="swatch available"></i> Available</span>
+                <span><i class="swatch commission"></i> Commission</span>
+                <span><i class="swatch sold"></i> Sold/Reserved</span>
+              </div>
+            </div>
+
+            <div class="gallery-grid" id="galleryGrid"><article class="art-card reveal">
+      <div class="art-card__visual" style="background:linear-gradient(140deg, #6f3240, #f0c7b6 56%, #d3a56a)">
+        <span class="art-card__status">Available</span>
+        <span class="art-card__collection">Wedding Studies</span>
+      </div>
+      <div class="art-card__content">
+        <div class="art-card__header">
+          <div>
+            <p class="eyebrow">Oil on canvas</p>
+            <h3>Velvet Procession</h3>
+          </div>
+          <span class="art-card__price">₹1,65,000</span>
+        </div>
+
+        <dl class="art-card__meta">
+          <div>
+            <dt>Painting range</dt>
+            <dd>Large</dd>
+          </div>
+          <div>
+            <dt>Dimensions</dt>
+            <dd>36 x 48 in</dd>
+          </div>
+          <div>
+            <dt>Year</dt>
+            <dd>2026</dd>
+          </div>
+          <div>
+            <dt>Mood</dt>
+            <dd>romantic, ceremonial, rich</dd>
+          </div>
+        </dl>
+
+        <p class="art-card__description">A wedding-inspired composition that previews the artist's ability to translate celebration into a collectible heirloom.</p>
+
+        <div class="art-card__footer">
+          <span class="art-card__year">Wedding Studies</span>
+          <button class="card-action" type="button" data-art-id="6">View details</button>
+        </div>
+      </div>
+    </article><article class="art-card reveal">
+      <div class="art-card__visual" style="background:linear-gradient(140deg, #8f5664, #f2d5cf 56%, #c59a63)">
+        <span class="art-card__status">Available</span>
+        <span class="art-card__collection">Wedding Studies</span>
+      </div>
+      <div class="art-card__content">
+        <div class="art-card__header">
+          <div>
+            <p class="eyebrow">Oil and charcoal</p>
+            <h3>Ceremony Bloom</h3>
+          </div>
+          <span class="art-card__price">₹1,18,000</span>
+        </div>
+
+        <dl class="art-card__meta">
+          <div>
+            <dt>Painting range</dt>
+            <dd>Medium</dd>
+          </div>
+          <div>
+            <dt>Dimensions</dt>
+            <dd>24 x 36 in</dd>
+          </div>
+          <div>
+            <dt>Year</dt>
+            <dd>2026</dd>
+          </div>
+          <div>
+            <dt>Mood</dt>
+            <dd>floral, celebratory, heirloom</dd>
+          </div>
+        </dl>
+
+        <p class="art-card__description">A layered wedding portrait study exploring floral atmosphere, silhouettes, and ceremonial warmth.</p>
+
+        <div class="art-card__footer">
+          <span class="art-card__year">Wedding Studies</span>
+          <button class="card-action" type="button" data-art-id="12">View details</button>
+        </div>
+      </div>
+    </article><article class="art-card reveal">
+      <div class="art-card__visual" style="background:linear-gradient(140deg, #b85c38, #f1b36d 58%, #433227)">
+        <span class="art-card__status">Available</span>
+        <span class="art-card__collection">Echoes of Light</span>
+      </div>
+      <div class="art-card__content">
+        <div class="art-card__header">
+          <div>
+            <p class="eyebrow">Oil on canvas</p>
+            <h3>Golden Reverie</h3>
+          </div>
+          <span class="art-card__price">₹1,85,000</span>
+        </div>
+
+        <dl class="art-card__meta">
+          <div>
+            <dt>Painting range</dt>
+            <dd>Large</dd>
+          </div>
+          <div>
+            <dt>Dimensions</dt>
+            <dd>36 x 48 in</dd>
+          </div>
+          <div>
+            <dt>Year</dt>
+            <dd>2025</dd>
+          </div>
+          <div>
+            <dt>Mood</dt>
+            <dd>luminous, layered, atmospheric</dd>
+          </div>
+        </dl>
+
+        <p class="art-card__description">A warm large-format painting built with amber tones and sweeping movement for statement walls.</p>
+
+        <div class="art-card__footer">
+          <span class="art-card__year">Echoes of Light</span>
+          <button class="card-action" type="button" data-art-id="1">View details</button>
+        </div>
+      </div>
+    </article><article class="art-card reveal">
+      <div class="art-card__visual" style="background:linear-gradient(140deg, #c99874, #efdbc9 55%, #54675f)">
+        <span class="art-card__status">Available</span>
+        <span class="art-card__collection">House of Memory</span>
+      </div>
+      <div class="art-card__content">
+        <div class="art-card__header">
+          <div>
+            <p class="eyebrow">Acrylic on canvas</p>
+            <h3>Quiet Courtyard</h3>
+          </div>
+          <span class="art-card__price">₹78,000</span>
+        </div>
+
+        <dl class="art-card__meta">
+          <div>
+            <dt>Painting range</dt>
+            <dd>Medium</dd>
+          </div>
+          <div>
+            <dt>Dimensions</dt>
+            <dd>24 x 30 in</dd>
+          </div>
+          <div>
+            <dt>Year</dt>
+            <dd>2024</dd>
+          </div>
+          <div>
+            <dt>Mood</dt>
+            <dd>architectural, calm, earthy</dd>
+          </div>
+        </dl>
+
+        <p class="art-card__description">A balanced composition inspired by intimate spaces, textured walls, and late-afternoon light.</p>
+
+        <div class="art-card__footer">
+          <span class="art-card__year">House of Memory</span>
+          <button class="card-action" type="button" data-art-id="2">View details</button>
+        </div>
+      </div>
+    </article><article class="art-card reveal">
+      <div class="art-card__visual" style="background:linear-gradient(140deg, #f2b5a7, #fff0df 56%, #c06f52)">
+        <span class="art-card__status">Available</span>
+        <span class="art-card__collection">Afterglow Studies</span>
+      </div>
+      <div class="art-card__content">
+        <div class="art-card__header">
+          <div>
+            <p class="eyebrow">Watercolor and ink</p>
+            <h3>Blush Horizon</h3>
+          </div>
+          <span class="art-card__price">₹32,000</span>
+        </div>
+
+        <dl class="art-card__meta">
+          <div>
+            <dt>Painting range</dt>
+            <dd>Small</dd>
+          </div>
+          <div>
+            <dt>Dimensions</dt>
+            <dd>12 x 16 in</dd>
+          </div>
+          <div>
+            <dt>Year</dt>
+            <dd>2025</dd>
+          </div>
+          <div>
+            <dt>Mood</dt>
+            <dd>soft, airy, poetic</dd>
+          </div>
+        </dl>
+
+        <p class="art-card__description">A delicate work with a light palette, suited to quiet corners, reading rooms, and intimate gifting.</p>
+
+        <div class="art-card__footer">
+          <span class="art-card__year">Afterglow Studies</span>
+          <button class="card-action" type="button" data-art-id="4">View details</button>
+        </div>
+      </div>
+    </article><article class="art-card reveal">
+      <div class="art-card__visual" style="background:linear-gradient(140deg, #df8a31, #ffdf9a 53%, #8d3b1c)">
+        <span class="art-card__status">Available</span>
+        <span class="art-card__collection">Echoes of Light</span>
+      </div>
+      <div class="art-card__content">
+        <div class="art-card__header">
+          <div>
+            <p class="eyebrow">Mixed media</p>
+            <h3>Saffron Tide</h3>
+          </div>
+          <span class="art-card__price">₹2,35,000</span>
+        </div>
+
+        <dl class="art-card__meta">
+          <div>
+            <dt>Painting range</dt>
+            <dd>Large</dd>
+          </div>
+          <div>
+            <dt>Dimensions</dt>
+            <dd>42 x 60 in</dd>
+          </div>
+          <div>
+            <dt>Year</dt>
+            <dd>2026</dd>
+          </div>
+          <div>
+            <dt>Mood</dt>
+            <dd>dramatic, radiant, immersive</dd>
+          </div>
+        </dl>
+
+        <p class="art-card__description">A museum-scale original with glowing ochres and textured contrast, ideal for luxury hospitality or statement homes.</p>
+
+        <div class="art-card__footer">
+          <span class="art-card__year">Echoes of Light</span>
+          <button class="card-action" type="button" data-art-id="9">View details</button>
+        </div>
+      </div>
+    </article><article class="art-card reveal">
+      <div class="art-card__visual" style="background:linear-gradient(140deg, #dc8e9b, #fdece8 58%, #85565c)">
+        <span class="art-card__status">Available</span>
+        <span class="art-card__collection">Afterglow Studies</span>
+      </div>
+      <div class="art-card__content">
+        <div class="art-card__header">
+          <div>
+            <p class="eyebrow">Watercolor and gouache</p>
+            <h3>Rosewater Letter</h3>
+          </div>
+          <span class="art-card__price">₹25,000</span>
+        </div>
+
+        <dl class="art-card__meta">
+          <div>
+            <dt>Painting range</dt>
+            <dd>Small</dd>
+          </div>
+          <div>
+            <dt>Dimensions</dt>
+            <dd>11 x 14 in</dd>
+          </div>
+          <div>
+            <dt>Year</dt>
+            <dd>2023</dd>
+          </div>
+          <div>
+            <dt>Mood</dt>
+            <dd>romantic, delicate, giftable</dd>
+          </div>
+        </dl>
+
+        <p class="art-card__description">A compact floral abstraction with soft pink tones and a refined paper texture.</p>
+
+        <div class="art-card__footer">
+          <span class="art-card__year">Afterglow Studies</span>
+          <button class="card-action" type="button" data-art-id="10">View details</button>
+        </div>
+      </div>
+    </article><article class="art-card reveal">
+      <div class="art-card__visual" style="background:linear-gradient(140deg, #3b4f60, #bad0dd 55%, #c8844f)">
+        <span class="art-card__status">Available</span>
+        <span class="art-card__collection">City Pulse</span>
+      </div>
+      <div class="art-card__content">
+        <div class="art-card__header">
+          <div>
+            <p class="eyebrow">Acrylic on canvas</p>
+            <h3>Monsoon Arcade</h3>
+          </div>
+          <span class="art-card__price">₹92,000</span>
+        </div>
+
+        <dl class="art-card__meta">
+          <div>
+            <dt>Painting range</dt>
+            <dd>Medium</dd>
+          </div>
+          <div>
+            <dt>Dimensions</dt>
+            <dd>26 x 34 in</dd>
+          </div>
+          <div>
+            <dt>Year</dt>
+            <dd>2025</dd>
+          </div>
+          <div>
+            <dt>Mood</dt>
+            <dd>urban, rhythmic, reflective</dd>
+          </div>
+        </dl>
+
+        <p class="art-card__description">A contemporary scene with rain-slick surfaces, warm reflections, and confident brushwork.</p>
+
+        <div class="art-card__footer">
+          <span class="art-card__year">City Pulse</span>
+          <button class="card-action" type="button" data-art-id="11">View details</button>
+        </div>
+      </div>
+    </article><article class="art-card reveal">
+      <div class="art-card__visual" style="background:linear-gradient(140deg, #385247, #9cc1af 52%, #f0d4ad)">
+        <span class="art-card__status">Commission</span>
+        <span class="art-card__collection">City Pulse</span>
+      </div>
+      <div class="art-card__content">
+        <div class="art-card__header">
+          <div>
+            <p class="eyebrow">Mixed media</p>
+            <h3>Festival Rain</h3>
+          </div>
+          <span class="art-card__price">₹2,10,000</span>
+        </div>
+
+        <dl class="art-card__meta">
+          <div>
+            <dt>Painting range</dt>
+            <dd>Large</dd>
+          </div>
+          <div>
+            <dt>Dimensions</dt>
+            <dd>40 x 54 in</dd>
+          </div>
+          <div>
+            <dt>Year</dt>
+            <dd>2026</dd>
+          </div>
+          <div>
+            <dt>Mood</dt>
+            <dd>energetic, layered, cinematic</dd>
+          </div>
+        </dl>
+
+        <p class="art-card__description">An expressive cityscape concept with metallic undertones and gestural movement for contemporary interiors.</p>
+
+        <div class="art-card__footer">
+          <span class="art-card__year">City Pulse</span>
+          <button class="card-action" type="button" data-art-id="3">View details</button>
+        </div>
+      </div>
+    </article><article class="art-card reveal">
+      <div class="art-card__visual" style="background:linear-gradient(140deg, #5b7967, #cfe0bf 50%, #8e5a3c)">
+        <span class="art-card__status">Reserved</span>
+        <span class="art-card__collection">Earth &amp; Water</span>
+      </div>
+      <div class="art-card__content">
+        <div class="art-card__header">
+          <div>
+            <p class="eyebrow">Oil on linen</p>
+            <h3>River Hymn</h3>
+          </div>
+          <span class="art-card__price">₹98,000</span>
+        </div>
+
+        <dl class="art-card__meta">
+          <div>
+            <dt>Painting range</dt>
+            <dd>Medium</dd>
+          </div>
+          <div>
+            <dt>Dimensions</dt>
+            <dd>30 x 30 in</dd>
+          </div>
+          <div>
+            <dt>Year</dt>
+            <dd>2023</dd>
+          </div>
+          <div>
+            <dt>Mood</dt>
+            <dd>organic, fluid, contemplative</dd>
+          </div>
+        </dl>
+
+        <p class="art-card__description">A circular flow of greens and ochres capturing reflection, current, and a sense of grounded stillness.</p>
+
+        <div class="art-card__footer">
+          <span class="art-card__year">Earth &amp; Water</span>
+          <button class="card-action" type="button" data-art-id="5">View details</button>
+        </div>
+      </div>
+    </article><article class="art-card reveal">
+      <div class="art-card__visual" style="background:linear-gradient(140deg, #7f9a58, #eef0ce 58%, #d29956)">
+        <span class="art-card__status">Sold</span>
+        <span class="art-card__collection">Earth &amp; Water</span>
+      </div>
+      <div class="art-card__content">
+        <div class="art-card__header">
+          <div>
+            <p class="eyebrow">Acrylic on board</p>
+            <h3>Whispered Orchard</h3>
+          </div>
+          <span class="art-card__price">₹28,000</span>
+        </div>
+
+        <dl class="art-card__meta">
+          <div>
+            <dt>Painting range</dt>
+            <dd>Small</dd>
+          </div>
+          <div>
+            <dt>Dimensions</dt>
+            <dd>14 x 18 in</dd>
+          </div>
+          <div>
+            <dt>Year</dt>
+            <dd>2024</dd>
+          </div>
+          <div>
+            <dt>Mood</dt>
+            <dd>fresh, natural, bright</dd>
+          </div>
+        </dl>
+
+        <p class="art-card__description">A compact landscape study with layered foliage marks and soft golden highlights.</p>
+
+        <div class="art-card__footer">
+          <span class="art-card__year">Earth &amp; Water</span>
+          <button class="card-action" type="button" data-art-id="7">View details</button>
+        </div>
+      </div>
+    </article><article class="art-card reveal">
+      <div class="art-card__visual" style="background:linear-gradient(140deg, #2d3944, #95aab5 54%, #c8aa74)">
+        <span class="art-card__status">Commission</span>
+        <span class="art-card__collection">House of Memory</span>
+      </div>
+      <div class="art-card__content">
+        <div class="art-card__header">
+          <div>
+            <p class="eyebrow">Oil on wood</p>
+            <h3>Nocturne Window</h3>
+          </div>
+          <span class="art-card__price">₹86,000</span>
+        </div>
+
+        <dl class="art-card__meta">
+          <div>
+            <dt>Painting range</dt>
+            <dd>Medium</dd>
+          </div>
+          <div>
+            <dt>Dimensions</dt>
+            <dd>22 x 28 in</dd>
+          </div>
+          <div>
+            <dt>Year</dt>
+            <dd>2026</dd>
+          </div>
+          <div>
+            <dt>Mood</dt>
+            <dd>moody, intimate, layered</dd>
+          </div>
+        </dl>
+
+        <p class="art-card__description">A shadow-rich interior study that balances quiet architecture with glowing window light.</p>
+
+        <div class="art-card__footer">
+          <span class="art-card__year">House of Memory</span>
+          <button class="card-action" type="button" data-art-id="8">View details</button>
+        </div>
+      </div>
+    </article></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="spotlight section reveal">
+        <div class="spotlight-card">
+          <div>
+            <p class="eyebrow">Collector experience</p>
+            <h2>Built to support originals, commissions, and future detail pages.</h2>
+          </div>
+          <p>
+            This version already supports a structured portfolio workflow. Once you share ROHAN BHARTI's
+            final artwork list, dimensions, stories, and actual prices, we can replace every
+            placeholder and make it fully authentic.
+          </p>
+        </div>
+      </section>
+
+      <section class="wedding section reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Dedicated service page</p>
+          <h2>Live wedding painting now has its own premium page.</h2>
+          <p>
+            The homepage now stays focused on the portfolio, while the live painting experience opens
+            as a separate service page for a more polished and professional client journey.
+          </p>
+        </div>
+
+        <div class="wedding-layout">
+          <article class="wedding-story">
+            <div class="story-panel">
+              <span class="story-badge">Professional service redirect</span>
+              <h3>Open the dedicated live painting page for packages, process, and full details.</h3>
+              <p>
+                Couples can now move from the main portfolio into a focused service page with clearer
+                pricing presentation, a more premium story flow, and a stronger enquiry path.
+              </p>
+              <div class="hero-actions">
+                <a class="button primary" href="http://127.0.0.1:5500/live-wedding-painting.html">Open Live Painting Page</a>
+                <a class="button ghost" href="http://127.0.0.1:5500/Lines&amp;Layers.html#contact">Enquire From Homepage</a>
+              </div>
+            </div>
+
+            <div class="service-points">
+              <article>
+                <h4>Separate experience</h4>
+                <p>The service now feels distinct from the painting gallery, which makes the website look more intentional and high-end.</p>
+              </article>
+              <article>
+                <h4>Clear conversion path</h4>
+                <p>Visitors can land on a page focused only on live wedding painting instead of scrolling through mixed homepage content.</p>
+              </article>
+              <article>
+                <h4>Premium presentation</h4>
+                <p>Package pricing, inclusions, and booking notes are now framed as a standalone service offer for ROHAN BHARTI.</p>
+              </article>
+            </div>
+          </article>
+
+          <div class="service-points">
+            <article>
+              <h4>What the dedicated page includes</h4>
+              <p>Service overview, live painting packages, ideal moments, timeline, and direct booking calls to action.</p>
+            </article>
+            <article>
+              <h4>Who it is for</h4>
+              <p>Couples, planners, and families looking for a refined event-art experience and heirloom-style keepsake painting.</p>
+            </article>
+            <article>
+              <h4>Navigation flow</h4>
+              <p>The header, hero button, and artwork modal now all redirect to the standalone live wedding painting page.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="process section reveal" id="process">
+        <div class="section-heading">
+          <p class="eyebrow">How it works</p>
+          <h2>A simple process for collectors and wedding clients.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-step">
+            <span>01</span>
+            <h3>Discovery &amp; curation</h3>
+            <p>Visitors browse artworks by collection, painting range, and pricing to shortlist what fits their taste and budget.</p>
+          </article>
+          <article class="timeline-step">
+            <span>02</span>
+            <h3>Consultation</h3>
+            <p>Collectors can enquire about originals or request a similar commissioned piece aligned with their preferred scale and palette.</p>
+          </article>
+          <article class="timeline-step">
+            <span>03</span>
+            <h3>Execution &amp; delivery</h3>
+            <p>For live weddings, ROHAN BHARTI paints on-site and finalizes the work in the studio before handover or shipment.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section reveal" id="contact">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">Next step</p>
+            <h2>Ready for the full ROHAN BHARTI portfolio details.</h2>
+            <p>
+              The structure is prepared. In the next round, send the full biography, real
+              painting list, dimensions, prices, and wedding service specifics, and we can turn this into the final live portfolio for Lines&amp;Layers Studio.
+            </p>
+            <div class="contact-direct">
+              <span>Direct contact with the artist</span>
+              <a href="tel:+918779664605">87796 64605</a>
+              <p>Call or WhatsApp ROHAN BHARTI directly for painting enquiries and commissions.</p>
+            </div>
+          </div>
+
+          <form class="contact-form">
+            <label class="field">
+              <span>Name</span>
+              <input type="text" placeholder="Collector or couple name">
+            </label>
+            <label class="field">
+              <span>Email</span>
+              <input type="email" placeholder="name@example.com">
+            </label>
+            <label class="field">
+              <span>Interested in</span>
+              <select>
+                <option>Original painting</option>
+                <option>Commission artwork</option>
+                <option>Live wedding painting</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Project note</span>
+              <textarea rows="4" placeholder="Share the mood, size, or event details"></textarea>
+            </label>
+            <button class="button primary" type="button">Send Enquiry</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <dialog class="art-modal" id="artModal">
+    <div class="art-modal__backdrop" data-close="true"></div>
+    <div class="art-modal__panel" role="document">
+      <button class="art-modal__close" id="closeModal" type="button" aria-label="Close artwork details">Close</button>
+      <div class="art-modal__visual" id="modalVisual"></div>
+      <div class="art-modal__content">
+        <p class="eyebrow" id="modalCollection"></p>
+        <h2 id="modalTitle"></h2>
+        <p class="modal-price" id="modalPrice"></p>
+        <p id="modalDescription"></p>
+
+        <div class="modal-meta" id="modalMeta"></div>
+
+        <div class="modal-actions">
+          <a class="button primary" href="http://127.0.0.1:5500/Lines&amp;Layers.html#contact">Enquire About This Work</a>
+          <a class="button ghost" href="http://127.0.0.1:5500/live-wedding-painting.html">View Wedding Services</a>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="./Lines&amp;Layers Studio_files/script.js.download"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
